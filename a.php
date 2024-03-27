@@ -3,23 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contoh PHP HTML</title>
+    <title>Contoh HTML Sederhana</title>
 </head>
 <body>
     <h1>Selamat Datang!</h1>
-    <p>Ini adalah halaman HTML yang menggunakan PHP untuk memberikan respons.</p>
+    <p>Ini adalah contoh halaman HTML sederhana.</p>
 
-    <?php
-    // Menampilkan waktu saat ini menggunakan PHP
-    echo "<p>Waktu saat ini: " . date("Y-m-d H:i:s") . "</p>";
+    <h2>Daftar Buah-buahan:</h2>
+    <ul>
+        <li>Apel</li>
+        <li>Pisang</li>
+        <li>Jeruk</li>
+        <li>Mangga</li>
+    </ul>
 
-    // Menampilkan informasi server menggunakan PHP
-    echo "<p>Server: " . $_SERVER['SERVER_SOFTWARE'] . "</p>";
-    echo "<p>Alamat IP Server: " . $_SERVER['SERVER_ADDR'] . "</p>";
+    <p>Ini adalah contoh paragraf dalam halaman HTML.</p>
 
-    // Contoh kode PHP
-    echo "<h2>Kode PHP</h2>";
-    echo "<p>Ini adalah contoh kode PHP yang diakses dari halaman HTML.</p>";
-    ?>
+    <img src="https://via.placeholder.com/150" alt="Placeholder Image">
 </body>
 </html>

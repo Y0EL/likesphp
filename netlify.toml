@@ -1,8 +1,6 @@
+[build]
+  publish = "public"
+  command = "echo 'No build step'"
+  
 [[plugins]]
-package = "@netlify/plugin-nextjs"
-
-  [plugins.inputs]
-  functions = "functions"
-
-[[plugins]]
-package = "@netlify/plugin-php"
+  package = "@netlify/plugin-php"

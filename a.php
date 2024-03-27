@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contoh PHP</title>
+    <title>Contoh PHP HTML</title>
 </head>
 <body>
-    <h1>Halo, dunia!</h1>
-    <?php
-        // Contoh penggunaan PHP
-        $nama = "Yoshi";
-        echo "<p>Halo, $nama! Ini contoh penggunaan PHP di dalam HTML.</p>";
-        
-        // Contoh fungsi sederhana
-        function tambah($a, $b) {
-            return $a + $b;
-        }
+    <h1>Selamat Datang!</h1>
+    <p>Ini adalah halaman HTML yang menggunakan PHP untuk memberikan respons.</p>
 
-        $hasil = tambah(5, 3);
-        echo "<p>Hasil penjumlahan 5 + 3 = $hasil</p>";
+    <?php
+    // Menampilkan waktu saat ini menggunakan PHP
+    echo "<p>Waktu saat ini: " . date("Y-m-d H:i:s") . "</p>";
+
+    // Menampilkan informasi server menggunakan PHP
+    echo "<p>Server: " . $_SERVER['SERVER_SOFTWARE'] . "</p>";
+    echo "<p>Alamat IP Server: " . $_SERVER['SERVER_ADDR'] . "</p>";
+
+    // Contoh kode PHP
+    echo "<h2>Kode PHP</h2>";
+    echo "<p>Ini adalah contoh kode PHP yang diakses dari halaman HTML.</p>";
     ?>
 </body>
 </html>
